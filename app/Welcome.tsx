@@ -2,7 +2,7 @@ import { StyleSheet, Text, View , Image, TouchableOpacity} from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import tw from 'twrnc';
-import { useNavigation } from 'expo-router';
+import { useNavigation } from '@react-navigation/native';
 
 const Welcome = () => {
     const navigation = useNavigation()
